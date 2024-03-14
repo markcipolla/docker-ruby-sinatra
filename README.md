@@ -6,7 +6,7 @@ Docker for hosting [Sinatra](http://www.sinatrarb.com) apps
     docker run --name my-sinatra-app \
         -p 80:80 \
         -v /path/to/sinatra/app:/usr/src/app \
-        -d erikap/ruby-sinatra
+        -d markcipolla/ruby-sinatra
         
 The Docker image exposes port 80.
 
