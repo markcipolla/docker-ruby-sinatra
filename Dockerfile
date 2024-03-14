@@ -1,5 +1,5 @@
-ENV RUBY_ENV 2.7
-FROM ruby:RUBY_ENV
+ARG ruby_version=3.2.2
+FROM ruby:$ruby_version
 
 LABEL maintainer="mark@markcipolla.com"
 
