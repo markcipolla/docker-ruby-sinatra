@@ -1,6 +1,7 @@
-FROM ruby:2.7
+ENV RUBY_ENV 2.7
+FROM ruby:RUBY_ENV
 
-LABEL maintainer="erika.pauwels@gmail.com"
+LABEL maintainer="mark@markcipolla.com"
 
 ENV RACK_ENV production
 ENV MAIN_APP_FILE web.rb
